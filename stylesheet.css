@@ -1,0 +1,35 @@
+body{
+    font-family: cursive;
+    font-size: medium;
+    background-color: rgb(240, 226, 241);
+}
+
+.index{
+    font-size: xx-large;
+}
+
+header, 
+h2,
+h3{
+    background-color: rgba(230, 73, 196, 0.342);
+    color: aliceblue;
+    text-align: center;
+    
+}
+.recetario,
+a {
+    text-align: center;
+    list-style-position: inside;
+    color:  rgba(233, 69, 197, 0.507);
+}
+
+main {
+    text-align: center;
+    list-style-position: inside;
+}
+
+h4,
+.dif{
+    background-color: aliceblue;
+    color: rgba(233, 69, 197, 0.507) ;
+}
