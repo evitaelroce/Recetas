@@ -1,34 +1,47 @@
+/* Los comentarios irán siempre debajo de la declaración */
+
+html{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Con esto cambiamos la fuente de todo el archivo */
+
 body{
-    font-size: medium;
-    background-color: rgb(240, 226, 241);
+    background-color:rgba(122, 126, 125, 0.801);
 }
+/* Con esto cambiamos el color del fondo de todo el conjunto */
 
-.index{
-    font-size: xx-large;
-}
-
-header, 
-h2,
-h3{
-    background-color: rgba(230, 73, 196, 0.342);
+header{
+    background-color: rgba(223, 99, 202, 0.61);
     color: aliceblue;
+    padding: 1rem;
+}
+/* Con esto cambiamos el fondo color de letra y padding de la cabecera  */
+
+header h1{
+    font-size: 2.5rem;
     text-align: center;
+}
+/* Alineamos texto de la cabecera y cambiamos tamaño de fuente*/
+
+.recetario {
+    width: 300px;
+    margin:0 auto;
+    text-align: center;
+}
+/* Alineamos el contenido principal poniendo el ancho de la imagen 
+y un margin de 0 auto  */
+
+.recetario ul {
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    /* Con esto quitamos los puntos/números de la lista */
+    padding: 1rem;
+    padding-left: 0;
+    font-size: 2rem;
     
 }
-.recetario,
-a {
-    text-align: center;
-    list-style-position: inside;
-    color:  rgba(233, 69, 197, 0.507);
-}
+/* Color del fondo, tamñao de letra y padding del contenido */
 
-main {
-    text-align: center;
-    list-style-position: inside;
-}
-
-h4,
-.dif{
-    background-color: aliceblue;
-    color: rgba(233, 69, 197, 0.507) ;
+.recetario p {
+    font-size: 1rem;
 }
