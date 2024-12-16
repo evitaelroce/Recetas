@@ -6,10 +6,11 @@
 body {
 background-color: rgba(132, 133, 134, 0.822);
 text-align: center;
+list-style-position: inside;
 }
 
 
-header{
+header.index{
     color: rgb(238, 242, 245);
     font-family:'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
     font-size: 2rem;
@@ -145,5 +146,5 @@ header{
     border-radius: 2rem;
     padding: 1rem;
 }
-
-
+ /* De aqui hacia arriba todo corresponde al body 
+ general y el diseño de .index */
