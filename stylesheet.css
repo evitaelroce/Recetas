@@ -1,0 +1,147 @@
+.html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+background-color: rgba(132, 133, 134, 0.822);
+text-align: center;
+}
+
+
+header{
+    color: rgb(238, 242, 245);
+    font-family:'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: rgba(63, 57, 57, 0.808);
+    border: 3px rgb(255, 255, 255) ridge;
+    border-radius: 0.5em;
+}
+
+.recetario{
+    margin: auto;
+}
+
+.recetario ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+
+.lasaña {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(63, 57, 57, 0.808);
+    padding: 1rem;
+    border: 3px rgb(255, 255, 255) solid;
+    border-radius: 0.5rem;
+    color: rgb(238, 242, 245);
+    margin-bottom: 1rem;
+}
+
+.lasaña a{
+    color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2.5rem;
+   text-decoration: none;
+}
+
+.lasaña img{
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.croqueta {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(63, 57, 57, 0.808);
+    padding: 1rem;
+    border: 3px rgb(255, 255, 255) solid;
+    border-radius: 0.5rem;
+    color: rgb(238, 242, 245);
+    margin-bottom: 1rem;
+}
+
+.croqueta a{
+    color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2.5rem;
+   text-decoration: none;
+}
+
+.croqueta img{
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.paella {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(63, 57, 57, 0.808);
+    padding: 1rem;
+    border: 3px rgb(255, 255, 255) solid;
+    border-radius: 0.5rem;
+    color: rgb(238, 242, 245);
+    margin-bottom: 1rem;
+}
+
+.paella a{
+    color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2.5rem;
+   text-decoration: none;
+}
+
+.paella img{
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.naranja-al-puñetazo {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(63, 57, 57, 0.808);
+    padding: 1rem;
+    border: 3px rgb(255, 255, 255) solid;
+    border-radius: 0.5rem;
+    color: rgb(238, 242, 245);
+    margin-bottom: 1rem;
+}
+
+.naranja-al-puñetazo a{
+    color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2.5rem;
+   text-decoration: none;
+}
+
+.naranja-al-puñetazo img{
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.caldereta-de-cordero {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(63, 57, 57, 0.808);
+    padding: 1rem;
+    border: 3px rgb(255, 255, 255) solid;
+    border-radius: 0.5rem;
+    color: rgb(238, 242, 245);
+    margin-bottom: 1rem;
+}
+
+.caldereta-de-cordero a{
+    color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2.5rem;
+   text-decoration: none;
+}
+
+.caldereta-de-cordero img{
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+
