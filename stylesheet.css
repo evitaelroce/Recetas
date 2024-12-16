@@ -45,6 +45,8 @@ header{
    font-family: Arial, Helvetica, sans-serif;
    font-size: 2.5rem;
    text-decoration: none;
+   /* Hemos quitado el texto de este enlace en HTML haciendo que solo se
+   vea la imagen para ir a otra página */
 }
 
 .lasaña img{
