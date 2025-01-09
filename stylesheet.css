@@ -5,28 +5,20 @@
 
 body {
 background-color: rgba(132, 133, 134, 0.822);
-text-align: center;
-list-style-position: inside;
 margin: 10px auto;
 padding: 5px;
 }
 
 
 header.index{
-    color: rgb(238, 242, 245);
+    color:#FF69B4;
     font-family:'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     padding: 10px;
-    background-color: rgba(63, 57, 57, 0.808);
+    background-color: #FFD1DC;
     border: 3px rgb(255, 255, 255) ridge;
     border-radius: 0.5em;
 }
-
-.recetario ul{
-    list-style-type: none;
-    padding: 5px;
-}
-
 
 .lasaña,
 .croqueta,
@@ -35,12 +27,16 @@ header.index{
 .caldereta-de-cordero {
     font-size: 1rem;
     font-weight: bold;
-    background-color: rgba(63, 57, 57, 0.808);
+    background-color: #FFD1DC;
     padding: 1rem;
     border: 3px rgb(255, 255, 255) solid;
     border-radius: 0.5rem;
-    color: rgb(238, 242, 245);
+    color:rgba(83, 84, 85, 0.925);
     margin-bottom: 1rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .recetario img {
@@ -48,13 +44,56 @@ header.index{
     padding: 1rem;
     width: 300px;
     height: 300px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
 }
 .recetario a{
-    color: aliceblue;
+    color: #FF69B4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5rem;
     text-decoration: none;
 }
- /* De aqui hacia arriba todo corresponde al body 
- general y el diseño de .index */
+
+header a{
+    color: #FF69B4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+header img{
+    width: 100px;
+    border-radius: 50%;
+}
+ 
+nav{
+    order: 3;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recetario ul{
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: #FF69B4 3px dashed;
+    gap: 20px;
+}
+
+main{
+    border: #FF69B4 3px solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
