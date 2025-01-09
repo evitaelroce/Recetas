@@ -1,27 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     display: flex;
     flex-direction: column;
     width: 100%;
     margin: 0;
-
+    font-family: "Roboto", serif;;
 }
 
 header{
+    border: solid white 2px;
     background: #ec9bc1;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
     padding: 30px;
+   
 }
 
 header img{
-    width: 100px;
+    width: 125px;
     border-radius: 50%;
     border: #ec5da0 2px solid;
-    align-self: flex-start;
     flex-shrink: 0;
+  align-self: center;
 }
 
 .titulos{
@@ -41,6 +45,7 @@ header img{
     font-family:"Playwrite AU SA", serif; 
     margin: 0;
     color: #ffff;
+ 
     font-size: 25px;
     text-shadow: #ec5da0 4px 1px;
 }
@@ -56,12 +61,15 @@ header a{
     text-decoration: none;
     color: #ffff;
     font-size: 22px;
+    font-weight: 300;
     text-shadow: #ec5da0 3px 1px;
 }
 
 .logo-link{
     display: flex;
     flex-direction: column;
+    border: #9beca6 2px solid;
+
 }
 
 .logo-link img{
