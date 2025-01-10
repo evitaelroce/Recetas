@@ -82,14 +82,25 @@ padding: 20px;
     justify-content: center;
     background: #ec9bc1;
     padding: 30px;
-    border: 2px solid #ec5da0 ;
-    border-radius: 10px;
+    /* border: 2px solid #ec5da0 ; */
+    border-top: #ec5da0 3px solid;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     color: #ffff;
     font-size: 20px;
     font-family:"Playwrite AU SA", serif; 
     letter-spacing: 36px;
     text-shadow: #ec5da0 0 4px 2px;
-    margin-bottom: 40px;
+    margin-bottom: 0;
+   
+}
+
+.borde{
+  border-right:  #ec5da0 3px solid;
+  border-left:#ec5da0 3px solid;
+  border-bottom: #ec5da0 3px solid;
+  border-radius: 10px;
 }
 
 .recetario{
@@ -97,9 +108,10 @@ padding: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    /* margin: 0;
-    padding: 0; */
+    padding: 70px;
+    margin: 0;
     justify-content: center;
+    /* border: #ec5da0 2px solid; */
 }
 
 .recetas{
@@ -133,7 +145,7 @@ padding: 20px;
 
 .apartado{
     margin-top: 60px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     margin-bottom: 60px;
     padding: 50px;
     display: flex;
