@@ -89,7 +89,8 @@ padding: 20px;
 
 .recetas{
     width: 300px;
-    border: 1px solid #ec5da0;
+    box-shadow: #d6d2d2 10px 8px 8px ;
+    border: 2px solid #ec5da0;
     border-radius: 10px;
     text-align: center;
 }
@@ -97,6 +98,7 @@ padding: 20px;
     width: 200px;
     height:200px;
     box-shadow: #ec5da0 0 10px 5px;
+    border-radius: 20px;
 }
 .recetas a{
     text-decoration: none;
@@ -111,3 +113,46 @@ padding: 20px;
     text-shadow: #ec5da0 0 5px 1px;
     font-size: 30px;
 }
+
+.apartado{
+    background-color: cadetblue;
+    padding: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.encabezados{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border:#ffff 2px solid;
+    align-items:center; 
+    color: #ffff;
+}
+.encabezados h3{
+    letter-spacing: 25px;
+}
+
+.encabezados h3{
+    margin: 0;
+}
+
+.encabezados cite{
+    align-self: flex-end;
+    padding: 5px;
+}
+button{
+    background: cadetblue;
+    border:#ffff 2px solid;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 8px;
+    padding: 10px 20px;
+    width: 50%;
+    box-shadow: rgb(51, 86, 87) 10px 10px 10px;
+}
+
